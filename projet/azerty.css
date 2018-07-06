@@ -3,3 +3,16 @@
 	background: tomato;
 	color: white;
 }
+h1{
+	text-align: center;
+}
+ p{
+ 	font-size:22px;
+ }
+ h3,h4{
+ 	font-size:30px ;
+ }
+ .A{
+ 	font-size: 30px ;
+ 	color: #3826;
+ }
