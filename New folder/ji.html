@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="we.css">
+  <script type="text/javascript" src="./we.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+
+</head>
+<body>
+ <ul>
+    <li><a href="#screen1">Home</a></li>
+    <li><a href="#screen2">About</a></li>
+    <li><a href="#screen3">Team</a></li>
+  </ul>
+  <div id="screen1">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="IMAGE11.jpg" style="width:100%">
+      <h6>WELCOME</h6>
+    </div>
+
+    <div class="mySlides fade" ; style="text-align:center">
+    <div class="numbertext">2 / 3</div>
+    <img src="image10.jpg" style="width:100%">
+    <h6>LET'S START THE GAME</h6>
+    </div>
+
+    <div class="mySlides fade" ; style="text-align:center">
+    <div class="numbertext">3 / 3</div>
+    <img src="./image6.jpg" style="width:100%">
+    <h6>HAVE FUN</h6>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+    <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    </div>
+  <div id="screen2">
+    <h2 class="title">ABOUT THE GAME:</h2>
+    <h3 class="ze">Description:</h3>
+    <p class="aze">The game is a puzzle that helps you to have fun and learn at the same time.It is a number puzzle game. You join the numbers until you get to 2048 or a higher score.</p>
+    <h3 class="ze">How to play?</h3>
+    <p class="aze">"how to play.</p>
+    
+  </div>
+<section id="screen3">
+  <div>
+  <h1 style="margin-bottom: 25px" class="title">OUR TEAM:</h1> 
+  <div class="content" class="center">
+      <div class="main-container"> 
+<img class="image2" class="container" src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/22815398_838847042955274_8911789624317222412_n.jpg?_nc_cat=0&oh=859be2f71caefad6c458bf328fc00906&oe=5BA1AB43">
+      <div class="overlay">
+          <a href="https://www.facebook.com/photo.php?fbid=658554164317897&set=a.101312216708764.2466.100004899572654&type=3" class="text">IBRAHIM ELHAMDOUNI</a>
+        </div>
+    </div>
+      <div class="main-container" class="center"> 
+        <img class="image2" src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/36827637_2131289073755782_3066791547686092800_n.jpg?_nc_cat=0&oh=910230eded928a3292741582e62e0f4a&oe=5BE3E8B0">
+        <div class="overlay">
+          <a href="https://www.facebook.com/photo.php?fbid=1638026153082079&set=a.1396366087248088.1073741827.100006241298872&type=3" class="text">MERYEM BECHAR</a>
+        </div>
+      </div>
+
+    <div class="main-container" class="center">
+       <img class="image2" class="container" src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/37083324_1824070047651053_3191858405480333312_n.jpg?_nc_cat=0&oh=c9465d3eceb767a3b670fa8485a75202&oe=5BA240B8">
+        <div class="overlay">
+          <a href="https://www.facebook.com/photo.php?fbid=1675347969189929&set=a.401182159939856.86433.100001442262828&type=3" class="text">YASSINE ALEM</a>
+        </div>
+    </div>
+      <div class="main-container" class="center"> 
+        <img class="image2" src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.6435-9/37051334_263648217753218_649245265261232128_n.jpg?_nc_cat=0&oh=0b42c5178127adc5b08a2ef14a4acb32&oe=5BD73250">
+        <div class="overlay">
+          <a href="https://www.facebook.com/photo.php?fbid=131644524286922&set=a.131644564286918.1073741828.100023241260251&type=3" class="text">IMANE IDALI</a>
+        </div>
+      </div>
+  </div>
+ </div>
+</section>  
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html> 
