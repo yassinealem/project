@@ -40,7 +40,7 @@ section {
 
 /* Screens Settings */
 #screen1 {
-background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBy1yY_u0OZmZ8cT2Le4JcmkgEXNJts7oCLAjKVnSkmLnI3Q82) ;
+background-image:url(https://scontent-cdg2-1.xx.fbcdn.net/v/t1.15752-0/p280x280/37190761_1825043727553685_164409977996312576_n.png?_nc_cat=0&oh=6ab22d035d01ddb8e92e2c8c47eaa674&oe=5BE5688A) ;
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
@@ -51,15 +51,15 @@ background-attachment: fixed;
 }
 
 #screen2 {
-	background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBy1yY_u0OZmZ8cT2Le4JcmkgEXNJts7oCLAjKVnSkmLnI3Q82);
+	background-image:url(https://scontent-cdg2-1.xx.fbcdn.net/v/t1.15752-0/p280x280/37190761_1825043727553685_164409977996312576_n.png?_nc_cat=0&oh=6ab22d035d01ddb8e92e2c8c47eaa674&oe=5BE5688A);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 500px;
+  height: 920px;
 }
 
 #screen3 {
-	background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBy1yY_u0OZmZ8cT2Le4JcmkgEXNJts7oCLAjKVnSkmLnI3Q82);  
+	background-image:url(https://scontent-cdg2-1.xx.fbcdn.net/v/t1.15752-0/p280x280/37190761_1825043727553685_164409977996312576_n.png?_nc_cat=0&oh=6ab22d035d01ddb8e92e2c8c47eaa674&oe=5BE5688A);  
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -94,7 +94,6 @@ img {vertical-align: middle;}
   border-radius: 0 3px 3px 0;
 }
 
-/* Position the "next button" */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
@@ -185,7 +184,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #6e92dd ;
+    background-color: #041d51 ;
 }
 h3{
 	font-color : black;
@@ -272,4 +271,8 @@ p{
 }
 .title{
 	font-family: 'Roboto Mono', monospace;
+}
+
+.zeee{
+  margin-top: 600px;
 }
